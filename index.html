@@ -1,101 +1,27 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>.COM MAGAZINE — Home</title>
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Archivo+Black&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>.COM MAGAZINE</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="magazine.html">Magazine</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
-  <!-- Header -->
-  <header class="header" role="banner">
-    <div class="container">
-      <div class="logo">.COM MAGAZINE</div>
-      <nav class="nav" role="navigation" aria-label="Main">
-        <a href="shop.html">Shop</a>
-        <a href="magazine.html">Magazine</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+  <section>
+    <h1>.COM MAGAZINE</h1>
+    <p>Curating culture, style, and conversation in the digital age.</p>
+  </section>
 
-      <!-- mobile button (hidden on desktop) -->
-      <button id="mobileNavBtn" class="mobile-nav-button" aria-expanded="false" aria-controls="mobileNav" style="display:none;">Menu</button>
-    </div>
-  </header>
-
-  <!-- Mobile nav (simple) -->
-  <div id="mobileNav" style="display:none; position:fixed;top:76px;left:0;right:0;background:#fff;padding:24px; z-index:1100;">
-    <div class="container">
-      <a href="shop.html">Shop</a> &nbsp; &nbsp;
-      <a href="magazine.html">Magazine</a> &nbsp; &nbsp;
-      <a href="about.html">About</a> &nbsp; &nbsp;
-      <a href="contact.html">Contact</a>
-    </div>
-  </div>
-
-  <!-- Hero -->
-  <main>
-    <section class="hero">
-      <img src="assets/hero.jpg" alt="Hero image">
-      <h1 class="hero-title">Issue 07 — Material</h1>
-    </section>
-
-    <section class="container">
-      <h2 class="section-heading">Featured</h2>
-
-      <div class="articles-grid" aria-label="Featured articles">
-        <a class="article-card" href="article.html">
-          <img src="assets/article1.jpg" alt="Article 1 image">
-          <div class="article-meta">
-            <div>
-              <div style="font-weight:700;text-transform:uppercase;font-size:13px;">Interview</div>
-              <div style="font-size:16px;margin-top:6px;">A Conversation With ExxtraLife</div>
-            </div>
-            <div style="font-size:12px;color:rgba(0,0,0,0.5)">June 2025</div>
-          </div>
-        </a>
-
-        <a class="article-card" href="article.html">
-          <img src="assets/article2.jpg" alt="Article 2">
-          <div class="article-meta">
-            <div>
-              <div style="font-weight:700;text-transform:uppercase;font-size:13px;">Essay</div>
-              <div style="font-size:16px;margin-top:6px;">COMING SOON</div>
-            </div>
-            <div style="font-size:12px;color:rgba(0,0,0,0.5)">SOON</div>
-          </div>
-        </a>
-
-        <a class="article-card" href="article.html">
-          <img src="assets/article3.jpg" alt="Article 3">
-          <div class="article-meta">
-            <div>
-              <div style="font-weight:700;text-transform:uppercase;font-size:13px;">COMING SOON</div>
-              <div style="font-size:16px;margin-top:6px;">SOON</div>
-            </div>
-            <div style="font-size:12px;color:rgba(0,0,0,0.5)">April 2025</div>
-          </div>
-        </a>
-      </div>
-
-      <div style="text-align:center;margin-bottom:80px;">
-        <a href="magazine.html" style="text-decoration:none; text-transform:uppercase; font-weight:700; letter-spacing:0.08em;">View Magazine</a>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container">
-      © .COM MAGAZINE — All rights reserved
-    </div>
+  <footer>
+    &copy; 2025 .COM MAGAZINE — All rights reserved.
   </footer>
-
-  <script src="js/main.js"></script>
 </body>
 </html>
-
